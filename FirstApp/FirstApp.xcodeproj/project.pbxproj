@@ -16,6 +16,7 @@
 		2CD799401C1064F00090F161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD7993E1C1064F00090F161 /* LaunchScreen.storyboard */; };
 		2CD7994B1C1064F00090F161 /* FirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7994A1C1064F00090F161 /* FirstAppTests.m */; };
 		2CD799561C1064F00090F161 /* FirstAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD799551C1064F00090F161 /* FirstAppUITests.m */; };
+		2CD799661C10685E0090F161 /* HomeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD799651C10685E0090F161 /* HomeData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		2CD799511C1064F00090F161 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD799551C1064F00090F161 /* FirstAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstAppUITests.m; sourceTree = "<group>"; };
 		2CD799571C1064F00090F161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD799651C10685E0090F161 /* HomeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeData.m; sourceTree = "<group>"; };
+		2CD799671C1068790090F161 /* HomeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		2CD7992C1C1064F00090F161 /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				2CD799641C1067C70090F161 /* Home */,
 				2CD799301C1064F00090F161 /* AppDelegate.h */,
 				2CD799311C1064F00090F161 /* AppDelegate.m */,
 				2CD799331C1064F00090F161 /* MasterViewController.h */,
@@ -143,6 +147,15 @@
 				2CD799571C1064F00090F161 /* Info.plist */,
 			);
 			path = FirstAppUITests;
+			sourceTree = "<group>";
+		};
+		2CD799641C1067C70090F161 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2CD799651C10685E0090F161 /* HomeData.m */,
+				2CD799671C1068790090F161 /* HomeData.h */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			files = (
 				2CD799321C1064F00090F161 /* AppDelegate.m in Sources */,
 				2CD799351C1064F00090F161 /* MasterViewController.m in Sources */,
+				2CD799661C10685E0090F161 /* HomeData.m in Sources */,
 				2CD7992F1C1064F00090F161 /* main.m in Sources */,
 				2CD799381C1064F00090F161 /* DetailViewController.m in Sources */,
 			);
